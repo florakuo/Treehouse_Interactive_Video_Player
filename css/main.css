@@ -1,0 +1,29 @@
+
+/* Fitting Video inside div and responsiveness */
+.mplayer {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+#video_cont {
+    width:100%;
+    height:auto;
+}
+
+#video_transcript {
+    margin:0 20px;/*Let transcript not close to border */
+}
+
+
+/* Highlight */
+.highlight {
+    color: darkorange;
+}
+
+
+@media screen and (min-width: 768px) {
+    #video_transcript{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
