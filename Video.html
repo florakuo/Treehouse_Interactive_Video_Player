@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-
+   
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <link href="css/mediaelementplayer.css" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mejs-treehouse.css">
 
@@ -16,7 +20,7 @@
   <body>          
       <!--Video-->  
       <div class = "mplayer">    
-      <video id ="video_cont" class="mejs_treehouse" controls>
+      <video id ="video_cont" controls class="mejs__player" style="max-width:100%">
         <source src="video/video.mp4" type="video/mp4">
         <source src="video/video.ogg" type="video/ogg">
       </video>
@@ -96,8 +100,6 @@ to your network at home.
       </p>
       </div>
       
-      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/mediaelement/4.0.6/mediaelement-and-player.js"></script>
       <script src="js/captions.js"></script>
 
   </body>

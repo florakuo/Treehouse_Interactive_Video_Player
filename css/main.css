@@ -5,11 +5,6 @@
   max-width: 700px;
 }
 
-#video_cont {
-    width:100%;
-    height:auto;
-}
-
 #video_transcript {
     margin:0 20px;/*Let transcript not close to border */
 }

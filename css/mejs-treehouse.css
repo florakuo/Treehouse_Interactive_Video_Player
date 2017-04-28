@@ -1,28 +1,29 @@
-.mejs_treehouse .mejs_controls {
+.mejs__treehouse .mejs__controls {
 	background:rgba(56,64,71,0.98);
 	height:30px;
+	border-radius: 10px;
 }
 
-.mejs_treehouse .mejs_controls .mejs-button button {
+.mejs__treehouse .mejs__controls .mejs__button button {
     outline:none;
 }
 
-.mejs_treehouse .mejs_controls .mejs-captions-button {
+.mejs__treehouse .mejs__controls .mejs__captions__button {
 	margin:0 7px;  
 }
 
 
-.mejs_treehouse .mejs_controls .mejs-captions-selector {
+.mejs__treehouse .mejs__controls .mejs__captions__selector {
     background:rgba(56,64,71,0.98);
     width:100px;
     right:auto;
 }
 
-.mejs_treehouse .mejs_controls .mejs-time-rail {
+.mejs__treehouse .mejs__controls .mejs__time__rail {
 	padding:0;
 }
 
-.mejs_treehouse .mejs_controls .mejs-time-rail span {
+.mejs__treehouse .mejs__controls .mejs__time__rail span {
 	height:100%;
 	border-radius: 0px;
 }
